@@ -1,0 +1,17 @@
+User inputs job title + requirements
+        ↓
+Step 1: "Analyst" — Claude reads the JD and extracts 
+        structured data (seniority, sector, skills, 
+        likely current employers)
+        ↓
+Step 2: "Researcher" — Claude uses web_search tool 
+        to find real market intel on that candidate profile
+        ↓
+Step 3: "Strategist" — Claude generates Boolean 
+        LinkedIn search string + ideal employer list
+        ↓
+Step 4: "Writer" — Claude writes a personalised 
+        senior outreach message
+        ↓
+Step 5: Packages everything into a clean brief
+        (displayed in Streamlit + downloadable)
